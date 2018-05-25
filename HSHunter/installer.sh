@@ -68,7 +68,7 @@ echo -e "[+] Moving Files to /usr/bin/ ..."
 cd /root/Desktop/ && chmod 777 HSHunter
 cd /root/Desktop/HSHunter && mv installer.sh /root/Desktop/
 cd /root/Desktop/ && mv HSHunter /usr/bin/
-cp hshunter.sh /usr/bin/hshunter
+cd /usr/bin/HSHunter && cp hshunter.sh /usr/bin/hshunter
 echo -e "[+] Finish!"
 echo -e "[!] hshunter --help program!"
 sleep 3
